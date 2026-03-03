@@ -1,4 +1,7 @@
-		System.out.println("Enter a number to search: ");
+import java.util.Scanner;
+class Main{
+	public static void main(String args[]){
+	System.out.println("Enter a number to search: ");
 		int k = Integer.valueOf(sc.nextLine());
 		for (int i = 0; i < 5; i++) {
 			if (arr[i] == k) {
@@ -7,3 +10,5 @@
 				System.out.println("Number not found in array");
 			}
 		}
+	}
+}
